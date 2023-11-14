@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class FinalCustomer {
+public class FinalCustomer extends User {
     @Id
     private Long id;
 

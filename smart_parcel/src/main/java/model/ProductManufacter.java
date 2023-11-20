@@ -1,5 +1,9 @@
 package model;
 
-public class ProductManufacter
+import jakarta.persistence.Entity;
+
+@Entity
+public class ProductManufacter extends User
 {
+    private String company_name;
 }
